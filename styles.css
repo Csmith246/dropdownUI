@@ -1,0 +1,47 @@
+.blocked{
+    height:400px;
+}
+
+/* Root Nav Elements */
+
+.nav-line{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-wrap{
+    display: inline-flex;
+    padding: 10px;
+    /* background-color: #9FA7EF;     */
+}
+
+.nav-item{
+    display:flex;
+    flex-direction: column;
+}
+
+.nav-button{
+    background-color: #2622FF;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.MainText{
+    color: white;
+}
+
+/* Drop-Down Nav Elements */
+
+.drop-down{
+    display: none;
+    flex-direction: column;
+}
+
+.dd-elem{
+    background-color: white;
+    border-color: black;
+    border: 1px;
+}
